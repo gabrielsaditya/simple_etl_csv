@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-26T03:42:35.807642","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-26T03:42:35.808458","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-26T03:42:35.919119Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-26T03:42:35.923719Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-26T03:42:35.924525Z","level":"info","event":"Current task name:load","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-26T03:42:35.925350Z","level":"info","event":"Dag name:spacex_etl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-26T03:42:36.842562","level":"warning","event":"/opt/airflow/dags/etl_spacex.py:22: SettingWithCopyWarning: \nA value is trying to be set on a copy of a slice from a DataFrame.\nTry using .loc[row_indexer,col_indexer] = value instead\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n  selected['date_utc'] = pd.to_datetime(selected['date_utc'])\n","logger":"py.warnings"}
+{"timestamp":"2025-08-26T03:42:36.885814Z","level":"info","event":"Data berhasil disimpan ke /opt/airflow/dags/output/spacex_launches.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-26T03:42:36.886978","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-26T03:42:36.931152Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-26T03:42:36.932119Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-26T03:42:36.932924Z","level":"info","event":"Task operator:<Task(PythonOperator): load>","chan":"stdout","logger":"task"}
