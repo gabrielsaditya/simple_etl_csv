@@ -86,3 +86,8 @@
 {"timestamp":"2025-08-26T04:07:33.023859","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-08-26T04:08:03.242773","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-08-26T04:08:33.995572","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-26T04:09:04.438002","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-26T04:09:35.238836","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-26T04:10:06.082450","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-26T04:10:36.412458","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-26T04:11:06.923391","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_spacex.py","logger":"airflow.models.dagbag.DagBag"}
